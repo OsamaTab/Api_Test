@@ -6,8 +6,8 @@ namespace ClassLibrary
 {
     public class MoviesModel
     {
-        public int Id { get; set; }
-        public int Popularity { get; set; }
+        public string Id { get; set; }
+        public string Popularity { get; set; }
         public string Title { get; set; }
     }
 }

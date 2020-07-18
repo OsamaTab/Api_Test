@@ -7,6 +7,6 @@ namespace ClassLibrary
 {
     public interface IMovieService
     {
-        public Task<MoviesViewModel> callApi();
+        public List<MoviesModel> callApi();
     }
 }
